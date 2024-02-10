@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const BASE_API_URL = 'https://api.farcasterkit.com';
+const BASE_API_URL = 'https://dune.com/docs/api/';
 
 interface LeaderboardItem {
   rank: string;
