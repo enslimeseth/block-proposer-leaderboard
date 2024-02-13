@@ -1,4 +1,16 @@
 import Image from "next/image";
+import { QueryParameter } from "@cowprotocol/ts-dune-client";
+import duneClient from "@/utils/duneClient";
+
+async function getDuneData() {
+  const queryID = 3424022;
+  const duneClient
+
+await duneClient.refresh(queryID)
+  const res //catch query result
+}
+
+
 
 export default function Home() {
   return (
