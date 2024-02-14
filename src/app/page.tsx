@@ -4,13 +4,12 @@ import duneClient from "@/utils/duneClient";
 
 async function getDuneData() {
   const queryID = 3424022;
-  const duneClient
-
-await duneClient.refresh(queryID)
-  const res //catch query result
+  const response = await duneClient.refresh(queryID)
+  console.log('Hey you did it', response)
+  return response
 }
 
-
+const duneData = getDuneData()
 
 export default function Home() {
   return (
